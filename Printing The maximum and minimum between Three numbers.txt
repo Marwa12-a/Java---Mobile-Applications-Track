@@ -1,0 +1,29 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        int x = 15;
+        int y = -6;
+        int z = 3;
+        
+        if ( x > y && x > z){
+            System.out.println(x + " is the Greatest");
+        }
+        else if ( y > x && y > z){
+            System.out.println(y + " is the Greatest");
+        }
+        else
+            System.out.println(z + " is the Greatest");
+        
+        
+     
+     if ( x < y && x < z){
+            System.out.println(x + " is the Smallest");
+        }
+        else if ( y < x && y < z){
+            System.out.println(y + " is the Smallest");
+        }
+        else
+            System.out.println(z + " is the Smallest");
+        
+     }
+}
