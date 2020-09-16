@@ -15,6 +15,6 @@ public class HelloWorld{
          }
          
          while (num <= 100);
-             if (num % 3 == 0);
-         }
- }
+             
+     }
+}
