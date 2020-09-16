@@ -1,0 +1,12 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        String names[] = {"Marwa","Sohaila", "Mostafa" , "Ali" , "Youssif"};
+        
+        for ( String x : names){
+            
+            System.out.println(x);
+        }
+  }
+}
