@@ -1,0 +1,20 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        int num = 1;
+         System.out.println("Number that divided by 3 are :-\n");
+         
+         do {
+             
+             if ( num % 3 == 0) {
+             
+             System.out.println("Number is" +" " + num +"\n"); 
+             }
+             
+             num++; 
+         }
+         
+         while (num <= 100);
+             if (num % 3 == 0);
+         }
+ }
