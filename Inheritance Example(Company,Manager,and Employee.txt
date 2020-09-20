@@ -1,0 +1,43 @@
+class Company {
+    
+     int a = 50;
+     int b = 10;
+    Company(){
+       
+        
+        System.out.println("Welcome to Our Company!");
+    }
+    
+    public int CalculateSalary() {
+        return a * b;
+    }
+}
+class Manager extends Company {
+    Manager(){
+        super();
+    }
+    public  int CalculateSalary() {
+        return a * b * 20;
+    }
+}
+
+class Employee extends Manager {
+    Employee(){
+        super();
+    }
+    public int CalculateSalary() {
+        return a * b * 10;
+    }
+}
+
+public class Test{
+
+     public static void main(String []args){
+        
+        Company m = new Manager();
+        Manager e = new Employee();
+        System.out.println(m.CalculateSalary());
+        System.out.println(e.CalculateSalary());
+        
+     }
+}
